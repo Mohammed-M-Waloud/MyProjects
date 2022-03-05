@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: blueviolet;
+    width: 100%;
+    position: fixed;
+    z-index: 600;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 160px;
+}
+
+.Logo{
+    text-decoration: none;
+    font-size: 1.8em;
+    color: aliceblue;
+    font-weight: 700 ;
+    text-transform: uppercase;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.3em;
+    font-weight: 600;
+    padding-left: 30px;
+    transition: 0.5s ease;
+    
+}
+
+.navigation a:hover{
+    color: firebrick;   
+        
+}
+
+section{
+    padding: 100px 200px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/back.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h4{
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 1.4em;
+}
+
+.main h1{
+    color: rgb(18, 0, 32);
+    font-weight: 700;
+    font-size: 3em;
+    margin-top: 10px;
+}
+
+.main h3{
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 1.4em;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+.main-button{
+    color: aliceblue;
+    background-color: blueviolet;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 40px;
+    padding: 0.9375em 2.1875em; 
+    border-radius: 15px;
+    transition: 0.7s ease;
+}
+
+.main-button:hover{
+    background-color: rgb(124, 28, 230);
+    transform: scale(1.1);
+}
+
+.Icons a{
+    font-size: 1.7em;
+    padding-right: 30px;
+    color: rgb(18, 0, 32);
+    transition: 0.5s ease;
+
+}
+
+.Icons a:hover{
+color: firebrick;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: blueviolet;
+    width: 800;
+    font-size: 2.2em;
+    margin-bottom: 30px;
+}
+
+.Services-Cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Card{
+    background-color: aliceblue;
+    width: 21.25em;
+    box-shadow:0px 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.Card:hover{
+    transform: scale(1.1);
+}
+
+.icon{
+    font-size: 8em;
+    color: blueviolet;
+    text-align: center;
+}
+
+.infoCard h3{
+    text-align: center;
+    margin-bottom: 10px;
+    color: blueviolet;
+    font-size: 1.2em;
+    width: 700;
+}
+
+.infoCard{
+    text-align: center;
+}
+
